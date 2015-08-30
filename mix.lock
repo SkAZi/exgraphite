@@ -1,0 +1,6 @@
+%{"bear": {:git, "git://github.com/boundary/bear.git", "119234548783af19b8ec75c879c5062676b92571", [tag: "0.8.2"]},
+  "bender": {:git, "git://github.com/veryevilzed/bender.git", "1dab5bd410115d22bd462f008f6452d7e22e86f8", []},
+  "folsom": {:git, "git://github.com/boundary/folsom.git", "38e2cce7c64ce1f0a3a918d90394cfc0a940b1ba", []},
+  "meck": {:git, "git://github.com/eproxus/meck", "dde759050eff19a1a80fd854d7375174b191665d", [tag: "0.8.2"]},
+  "randomex": {:git, "git://github.com/veryevilzed/randomex.git", "ba639eb5cf210e4396700cb7fae4ca9390014e48", []},
+  "slotslib": {:git, "ssh://git@git.aka.wtf:7999/libs/slotslib.git", "ce2435e31938f052153b7d0d75e09149dd9e6c5b", []}}
