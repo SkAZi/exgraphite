@@ -80,7 +80,7 @@ defmodule ExGraphite.Worker do
     end
 
     def write(metric, type, value, port) do
-        data = "#{@token}.#{metric}_#{type}_#{@suffix} #{value}"
+        data = "#{@token}.#{metric}_#{type}#{@suffix} #{value}"
         case @token do
             "" -> Logger.info data
             _ -> :ok = :gen_udp.send(port, 'carbon.hostedgraphite.com', 2003, data)
